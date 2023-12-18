@@ -29,15 +29,15 @@ At every step, a random noise of ±1 °C is added to simulate external disturban
 This project relies on the following libraries:
 + [gym](https://www.gymlibrary.dev/index.html): Used to create the custom environment for the shower temperature control problem.
 
-'''bash
+```bash
 $ pip install gym
-'''
+```
 
 + [numpy](https://numpy.org/): Used for array operations.
 
-'''bash
+```bash
 $ pip install numpy
-'''
+```
 
 + [PyTorch](https://pytorch.org/): Employed to train the neural network.
 
